@@ -1,0 +1,94 @@
+.home-card {
+  background-color: aliceblue !important;
+}
+
+.img-container1 {
+  background-image: url("/src/images/socks.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  width: 330px;
+  border-radius: 30px;
+}
+
+.img-container2 {
+  background-image: url("/src/images/bear.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  width: 330px;
+  border-radius: 30px;
+}
+
+.img-container3 {
+  background-image: url("/src/images/baby.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 180px;
+  width: 330px;
+  border-radius: 30px;
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+.nav-link {
+  color: #10235E;
+}
+
+.active {
+  color: #13318a !important;
+}
+
+.nav-icon {
+  color: #0f225e
+}
+
+.theme-color {
+  color: #10235e
+}
+
+.card {
+  border: 1px solid rgb(224, 206, 206) ;
+  border-radius: 20px;
+}
+
+img {
+  transition: transform .2s;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+
+
+.mini-container {
+  transition: transform .2s;
+}
+
+.mini-container:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+
+.custom-input {
+  color:#10235E !important;
+  background: #eff4f8 !important;
+  border: 1px solid #e4edf5 !important;
+}
+
+.custom-input::placeholder {
+  color:#10235E !important
+}
+
+.footer {
+  background-color: rgb(40, 60, 119);
+}
+
+.product-img {
+  width: 150px;
+  height: 150px;
+}
